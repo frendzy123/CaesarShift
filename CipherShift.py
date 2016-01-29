@@ -14,8 +14,8 @@ for num in range(1,27):
             if characterASCII < 97:
                 characterASCII = 122 - (96 - characterASCII)
             possibleDecrypt += chr(characterASCII)
-        possibleDecryptList.append(possibleDecrypt)
+    possibleDecryptList.append(possibleDecrypt)
 
 fa = FrequencyAnalysis.FrequencyAnalysis()
-print fa.frequency_analysis(possibleDecryptList)
+print fa.frequency_analysis(possibleDecryptList);
 
